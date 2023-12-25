@@ -1,5 +1,5 @@
 {
-  "name": "chat-widget-build",
+  "name": "chat-widget",
   "version": "1.0.0",
   "description": "Pullse AI - Chat Widget",
   "main": "dist/index.js",
