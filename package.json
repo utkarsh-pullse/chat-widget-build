@@ -11,6 +11,7 @@
   "keywords": ["Pullse AI", "Chat Widget"],
   "author": "Utkarsh Pandey",
   "license": "SEE LICENSE IN License.md",
+  "repository": "https://github.com/utkarsh-pullse/chat-widget-build",
   "dependencies": {},
   "devDependencies": {}
 }
