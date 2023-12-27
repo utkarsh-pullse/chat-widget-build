@@ -16,7 +16,10 @@
     "type": "git",
     "url": "git+https://github.com/utkarsh-pullse/chat-widget-build.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^1.6.3",
+    "socket.io-client": "^4.7.2"
+  },
   "devDependencies": {},
   "engines": {
     "node": ">=8",
