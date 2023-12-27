@@ -1,6 +1,6 @@
 {
   "name": "@pullse-ai/chat-widget",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pullse AI - Chat Widget",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

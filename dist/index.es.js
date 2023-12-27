@@ -17218,7 +17218,7 @@ function useStateCallback(initialState) {
 }
 
 const apiInstance = axios.create({
-  baseURL: process.env.REACT_APP_API_URL
+  baseURL: 'https://dev.pullseai.com/api'
 });
 const custom = function () {
   let config = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
@@ -17357,7 +17357,7 @@ function _toPropertyKey(arg) {
   return typeof key === "symbol" ? key : String(key);
 }
 
-const SOCKET_URI = process.env.REACT_APP_SOCKET_URL;
+const SOCKET_URI = 'https://dev.pullseai.com';
 class CreateMessageClass {
   constructor(message, roomId) {
     _defineProperty$2(this, "message", "");
