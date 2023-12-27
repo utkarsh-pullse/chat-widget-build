@@ -17563,7 +17563,8 @@ const SocketProvider = _ref => {
       coversationDetails,
       onClientStopTyping,
       handleAddFirstMessage,
-      handleSetTicketConversations
+      handleSetTicketConversations,
+      setMessages
     }
   }, children));
 };
@@ -27912,7 +27913,8 @@ const PullseChatbot = _ref => {
     messages,
     socket,
     clientStartTyping,
-    handleSetTicketConversations
+    handleSetTicketConversations,
+    setMessages
   } = useSocket();
   const {
     customerTickets,
@@ -27972,6 +27974,7 @@ const PullseChatbot = _ref => {
   const handleSetMessageComponent = componentType => {
     handleGetCustomerAllTickets(data.token);
     setCurrentMessageComponent(componentType);
+    setMessages({});
   };
   const handleSetOldCoversation = ele => {
     onUserClicked({
@@ -28164,9 +28167,7 @@ const PullseChatWidget = _ref => {
     data,
     style
   } = _ref;
-  console.log(data, "dataTokens");
-  lodash_2(data, 'token', "");
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(MainProvider, {
+  return /*#__PURE__*/React.createElement(React.Fragment, null, Object.keys(data).length && /*#__PURE__*/React.createElement(MainProvider, {
     data: data
   }, /*#__PURE__*/React.createElement(SocketProvider, {
     data: data

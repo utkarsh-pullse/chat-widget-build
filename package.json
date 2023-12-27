@@ -1,17 +1,37 @@
 {
-  "name": "chat-widget",
+  "name": "@pullse-ai/chat-widget",
   "version": "1.0.0",
   "description": "Pullse AI - Chat Widget",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
-
-  "scripts": {
-  },
-  "keywords": ["Pullse AI", "Chat Widget"],
+  "scripts": {},
+  "keywords": [
+    "Pullse AI",
+    "Chat Widget"
+  ],
   "author": "Utkarsh Pandey",
   "license": "SEE LICENSE IN License.md",
-  "repository": "https://github.com/utkarsh-pullse/chat-widget-build",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utkarsh-pullse/chat-widget-build.git"
+  },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
